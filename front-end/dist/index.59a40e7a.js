@@ -582,7 +582,6 @@ const REST_API_URL = `http://localhost:8080/gallery`;
 const cssLoaderHtml = `<div class="lds-facebook"><div></div><div></div><div></div></div>`;
 loadAllImages();
 btnUpload.on("click", ()=>{
-    alert();
     overlay.removeClass("d-none");
 });
 overlay.on("click", (evt)=>{

@@ -8,7 +8,6 @@ const cssLoaderHtml = `<div class="lds-facebook"><div></div><div></div><div></di
 loadAllImages();
 
 btnUpload.on('click', () => {
-    alert();
     overlay.removeClass('d-none')});
 overlay.on('click', (evt) => {
     if (evt.target === overlay[0]) overlay.addClass('d-none');
